@@ -41,12 +41,73 @@ header{
     align-items: center;
     justify-content: center;
 }
+.turma:hover{
+    cursor: pointer;
+}
 
 .detalhesTurma{
-    height: 300px;
+    display: none;
     width: 900px;
-    background-color: red;
+    background-color: #2c61a7;
     position: absolute;
     top: 275px;
     left: calc(50% - 900px/2)
+}
+.nome{
+    background-color: white;
+    color: black;
+    width: 450px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.matric{
+    background-color: white;
+    color: black;
+    width: 70px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+}
+.av{
+    background-color: white;
+    color: black;
+    width: 40px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+}
+.trabalho{
+    background-color: white;
+    color: black;
+    width: 90px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+}
+.final{
+    background-color: white;
+    color: black;
+    width: 70px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+}
+.saiba{
+    background-color: white;
+    color: black;
+    width: 100px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+}
+.quadroInformacoes{
+    height: 3px;
+    width: 2px;
+    background-color: aliceblue;
 }
