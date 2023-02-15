@@ -44,7 +44,11 @@ header{
 .turma:hover{
     cursor: pointer;
 }
-
+.fecharDetalhes{
+    position: absolute;
+    right: -45px;
+    top: 0px;
+}
 .detalhesTurma{
     display: none;
     width: 900px;
@@ -98,6 +102,15 @@ header{
     text-align: center;
 }
 .saiba{
+    background-color: white;
+    color: black;
+    width: 100px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+}
+.saibaMais{
     background-color: white;
     color: black;
     width: 100px;
