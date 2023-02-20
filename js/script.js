@@ -195,11 +195,13 @@ function criarDivs(s){
     for(var i = 0; i < dadosTeste.length; i++){
         var divSaiba = document.createElement('div')
         divSaiba.classList.add('saiba');
-        divSaiba.innerHTML = "<a href=''>INFO</a>"
+        divSaiba.innerHTML = "<a href='paginaAluno.html?id="+ s[i].id +"'>INFO</a>"
         divConteudoSaiba.appendChild(divSaiba)
     }        
 }
+
 mostrarAlunos()
+
 
 /* async function mostrarAlunos(){
     fetch("https://jsonplaceholder.typicode.com/users")
