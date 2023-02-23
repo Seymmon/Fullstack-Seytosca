@@ -14,6 +14,7 @@ function mostrarId(){
     var urlResponse = window.location.search;
     var obj = new URLSearchParams(urlResponse);
     resultId = obj.get("id");
+    resultId = resultId - 1
     console.log(resultId)
 }
 mostrarId()

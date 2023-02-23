@@ -130,18 +130,20 @@ header{
 */
 
 #alunoBody{
-    background-color: #2c61a7;
+    background-color: #f1f8e5;
+    background-image: url(/imagens/fundoAzul.jpg.crdownload);
     font-weight: bold;
     font-size: 1.2em;
     display: flex;
     justify-content: center;
 }
 .alunoContainer{
-    background-color: red;
+    background-color: #e2dfdf;
     width: 900px;
     display: flex;
     margin-top: 100px;
     padding: 50px;
+    border-radius: 25px;
 }
 .alunoFoto{
     padding-left: 40px;
