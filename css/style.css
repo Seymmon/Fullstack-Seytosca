@@ -156,3 +156,42 @@ header{
 .paddingInfo{
     padding: 15px 10px;
 }
+.form1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#nome{
+    width:300px
+}
+#tel{
+    width: 150px;
+}
+#cpf{
+    width: 150px;
+}
+#nasc{
+    width: 150px;
+}
+#campus{
+    width: 150px;
+}
+#curso{
+    width: 150px;
+}
+#enviarForm{
+    padding: 15px;
+    border: 1px solid #f1f8e5;
+}
+.addAlunos{
+    background-color: #415377;
+    display: flex;
+    justify-content: center;
+}
+.addAlunos a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
